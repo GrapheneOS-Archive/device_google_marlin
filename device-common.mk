@@ -441,13 +441,6 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 PRODUCT_PACKAGES += \
     update_engine_sideload
 
-# Tell the system to enable copying odexes from other partition.
-PRODUCT_PACKAGES += \
-	cppreopts.sh
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.cp_system_other_odex=1
-
 # Script that copies preloads directory from system_other to data partition
 PRODUCT_COPY_FILES += \
     device/google/marlin/preloads_copy.sh:system/bin/preloads_copy.sh
