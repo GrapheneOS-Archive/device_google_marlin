@@ -15,8 +15,6 @@ allow vendor_init {
   media_rw_data_file
   netmgr_data_file
   perfd_data_file
-  preloads_data_file
-  preloads_media_file
   radio_data_file
   smlog_dump_file
   system_data_file
