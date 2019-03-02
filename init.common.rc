@@ -176,9 +176,6 @@ on zygote-start
     mkdir /data/misc/tloc/ 0700 system drmrpc
     mkdir /data/misc/qvop 0660 system system
     mkdir /data/misc/audio_pp 0771 media audio
-    mkdir /data/preloads 0775 system system
-    mkdir /data/preloads/media 0775 system system
-    mkdir /data/preloads/demo 0775 system system
     mkdir /data/misc/netmgr 0770 system radio
 
     # Disable verbosity for sensorhub
